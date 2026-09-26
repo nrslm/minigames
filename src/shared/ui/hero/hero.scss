@@ -1,6 +1,6 @@
 .hero {
     background: url("../../../assets/image/Hero-bg.png") no-repeat center;
-    padding: var(--size-15);
+    padding: var(--size-14);
 
     &__container {
         max-width: 600px;
@@ -32,6 +32,43 @@
         font-size: var(--text-body-large);
         color: var(--on-bg-low);
         line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+        padding: var(--size-10);
+        &__title {
+            font-size: var(--text-display-medium);
+        }
+        &__description {
+            font-size: var(--text-body-medium);
+        }
+    }
+
+    @media (max-width: 863px) {
+        padding: var(--size-8);
+    }
+    @media (max-width: 505px) {
+        padding: var(--size-4);
+        &__title {
+            font-size: var(--text-display-small);
+        }
+        &__description {
+            font-size: var(--text-body-small);
+        }
+    }
+
+    @media (max-width: 375px) {
+        padding: var(--size-1);
+        &__title {
+            font-size: var(--text-display-small);
+        }
+        &__description {
+            font-size: var(--text-body-small);
+        }
+    }
+    &__container {
+        max-width: 600px;
+        margin: var(--size-4);
     }
 
 }
