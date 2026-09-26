@@ -1,0 +1,123 @@
+:root {
+    /* ==========================================================
+       1. TYPOGRAPHY (Шрифты и размеры)
+       ========================================================== */
+    --font-inter: 'Inter', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+  
+    /* Weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+  
+    /* Font Sizes */
+    --text-display-large: 56px;
+    --text-display-medium: 36px;
+    --text-display-small: 24px;
+    
+    --text-headline-large: 32px;
+    --text-headline-medium: 24px;
+    --text-headline-small: 20px;
+    
+    --text-body-large: 18px;
+    --text-body-medium: 16px;
+    --text-body-small: 14px;
+    
+    --text-label-extra-large: 16px;
+    --text-label-large: 14px;
+    --text-label-medium: 12px;
+    --text-label-small: 10px;
+  
+  
+    /* ==========================================================
+       2. SIZES & SPACING (Размеры и отступы)
+       ========================================================== */
+    --size-05: 4px;
+    --size-1: 8px;
+    --size-2: 16px;
+    --size-3: 24px;
+    --size-4: 32px;
+    --size-5: 40px;
+    --size-6: 48px;
+    --size-7: 56px;
+    --size-8: 64px;
+    --size-9: 72px;
+    --size-10: 80px;
+    --size-11: 88px;
+    --size-12: 96px;
+    --size-13: 104px;
+    --size-14: 112px;
+    --size-15: 120px;
+  
+  
+    /* ==========================================================
+       3. CORNERS (Радиусы скругления)
+       ========================================================== */
+    --corner-extra-small: 4px;
+    --corner-small: 8px;
+    --corner-medium: 12px;
+    --corner-large: 16px;
+    --corner-extra-large: 24px;
+    --corner-full: 9999px;
+  
+  
+    /* ==========================================================
+       4. BUTTONS (Внутренние отступы кнопок)
+       ========================================================== */
+    --btn-large-padding: 16px 24px;
+    --btn-medium-padding: 10px 20px;
+    --btn-small-padding: 8px 16px;
+    --btn-icon-padding: 8px;
+  
+  
+    /* ==========================================================
+       5. SHADOWS (Тени)
+       ========================================================== */
+    --shadow-level-1: 4px 4px 0px var(--on-primary);
+    --shadow-level-2: 6px 6px 0px var(--on-primary);
+    --shadow-level-3: 8px 8px 0px var(--on-primary);
+  
+  
+    /* ==========================================================
+       6. COLORS (Цветовая палитра)
+       ========================================================== */
+    /* Base */
+    --white: #FFFFFF;
+    --black: #000000;
+  
+    /* General */
+    --bg: #F9F8F3;
+    --on-bg: #5F5D75;
+    --on-bg-low: #737380;
+    
+    --bg-footer: #1E1B3A;
+    --bg-footer-low: #2A264F;
+    --bg-footer-lowest: #3C376E;
+    --on-bg-footer: #B9B5C9;
+  
+    --surface: #FFF9E5;
+    --surface-low: #FFFCF5;
+  
+    --primary: #FFD02B;
+    --primary-low: #FDE047;
+    --primary-high: #E5BB00;
+    --on-primary: #242145;
+  
+    --secondary: #F0EEFF;
+    --tertiary: #3A2EBF;
+  
+    --like: #FF4B4B;
+    --error: #B3261E;
+    --price-free: #0B8A8F;
+  
+    --outline: #E5E7EB;
+    --outline-variant: #D2D2D2;
+  
+    /* Additional (Avatar backgrounds) */
+    --avatar-random-1: #E9EEF6;
+    --avatar-random-2: #A3E2C9;
+    --avatar-random-3: #BCE3FF;
+    --avatar-random-4: #FFC6FF;
+    --avatar-random-5: #E8DFF5;
+  }

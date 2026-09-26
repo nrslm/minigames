@@ -1,0 +1,37 @@
+.hero {
+    background: url("../../../assets/image/Hero-bg.png") no-repeat center;
+    padding: var(--size-15);
+
+    &__container {
+        max-width: 600px;
+        background-color: var(--surface-low);
+        border: 2px solid var(--outline);
+        border-radius: var(--corner-large);
+        padding: var(--size-4);
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: var(--size-4);
+        align-items: center;
+        box-shadow: var(--shadow-level-1);
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        gap: var(--size-2);
+    }
+
+    &__title {
+        font-size: var(--text-display-large);
+        font-weight: var(--font-weight-bold);
+        color: var(--on-primary);
+        line-height: 1.2;
+    }
+
+    &__description {
+        font-size: var(--text-body-large);
+        color: var(--on-bg-low);
+        line-height: 1.5;
+    }
+
+}

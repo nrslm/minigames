@@ -1,0 +1,63 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-inter);
+    font-weight: var(--font-weight-medium);
+    border: 2px solid transparent;
+    border-radius: var(--corner-small);
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+
+    &:hover:not(:disabled) {
+        transform: translateY(-1px);
+    }
+
+    /* Размеры || size*/
+    &--size-large {
+        padding: var(--btn-large-padding);
+        font-size: var(--text-body-medium);
+    }
+
+    &--size-medium {
+        padding: var(--btn-medium-padding);
+        font-size: var(--text-body-small);
+    }
+
+    &--size-small {
+        padding: var(--btn-small-padding);
+        font-size: var(--text-label-large);
+    }
+
+    /* Варианты внешнего вида || style*/
+    &--primary {
+        background-color: var(--primary);
+        color: var(--on-primary);
+        box-shadow: var(--shadow-level-1);
+
+        &:hover:not(:disabled) {
+            background-color: var(--primary-high);
+        }
+    }
+
+    &--card {
+        background-color: var(--primary);
+        color: var(--on-primary);
+        border: 2px solid var(--on-primary);
+
+        &:hover:not(:disabled) {
+            background-color: var(--primary-high);
+        }
+    }
+
+    &--secondary {
+        background-color: var(--secondary);
+        color: var(--tertiary);
+    }
+
+    &--outline {
+        background-color: transparent;
+        border-color: var(--outline-variant);
+        color: var(--on-bg);
+    }
+}
